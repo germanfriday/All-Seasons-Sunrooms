@@ -1,0 +1,137 @@
+html, body, ul, ol, li, p, blockquote, q,
+h1, h2, h3, h4, h5, h6,
+form, fieldset, a, div, img{
+	margin: 0; padding: 0; border: 0;
+}
+body {
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/page_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #A49F8F;
+}
+a:link, a:visited {
+	color: #00336F;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #00336F;
+}
+.PageText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+}
+.PageTextBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+	font-weight: bold;
+}
+.FooterText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0E2E6A;
+	line-height: 14px;
+}
+.FooterTextBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #0E2E6A;
+	font-weight: bold;
+	line-height: 14px;
+}
+.FooterTextItalic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0E2E6A;
+	font-style: italic;
+	line-height: 14px;
+}
+.FormHeading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #00336F;
+	font-weight: bold;
+	line-height: 14px;
+}
+.FormElements {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00336F;
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #A29C8C;
+	text-indent: 5px;
+}
+.stroke {
+	border: 1px solid #A49F8F;
+}
+.Required {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	font-weight: bold;
+	line-height: 14px;
+}
+.ChartTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(../images/chart_head.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+	display: table-cell;
+}
+.WhiteDisclaimer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-indent: 5px;
+	background-image: url(../images/chart_head.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.Subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #0E2E6A;
+	font-weight: bold;
+}
+.FooterBG {
+	background-image: url(../images/footer_bg.jpg);
+	background-repeat: no-repeat;
+	background-color : inherit;
+}
+.FooterContactBG {
+	background-image: url(../images/footer_contact_bg.jpg);
+	background-repeat: no-repeat;
+}
+.thumbBG {
+	background-image: url(../images/thumb_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.thumbBGover {
+	background-image: url(../images/thumb_bg_f2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ListSub {
+	margin-left: 15px;
+	font-size: 10px;
+	list-style-type: disc;
+	color: #0E2E6A;
+}
